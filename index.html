@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+	<title>Aivo</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+	<nav>
+		<input type="checkbox" id="check">
+		<label for="check" class="checkbtn">
+			<i  class="fas fa-bars"></i>
+		</label>
+		<label class="logo">Aivo</label>
+		<ul>
+			<li class="active"><a class="active" href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Devlopers-Mohinish Teja&Team</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</nav>
+
+	<section id="intro">
+
+		<div class="box">
+
+    <div class="lh">
+    	<p>Health Bot AIVO</p>
+    </div>
+    <div class="lh2">
+        New Hack,Who This?
+    </div>
+    <!--<div id="ss" class="ss"><h1>Loading now</h1></div>-->
+    <div class="p1" id="showMe">
+        <h1>SHARE
+        <span
+     class="txt-rotate"
+     data-period="2000"
+     data-rotate='[ "MOTIVATION", "IDEAS", "KNOWLEDGE"]'></span>
+        </h1>
+    </div>
+
+    </div>
+    
+	</section>
+	<script src="p5.min.js"></script>
+    <script src="vanta.topology.min.js"></script>
+    <script src="app.js"></script>
+
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+<df-messenger
+  intent="WELCOME"
+  chat-title="Aivo"
+  agent-id="3e448d5e-2cb0-4ba1-be6d-f71309220b90"
+  language-code="en"
+></df-messenger>
+
+</body>
+</html>
